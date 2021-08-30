@@ -3,7 +3,7 @@ const showWeather = () => {
     const searchField = document.getElementById('search-field');
     const cityName = searchField.value;
     // const cityName = 'Dhaka';
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=778c2dc12187deca51c4ae0994bbab86`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid={api code}`;
     searchField.value = '';
     fetchingData(url);
 }
